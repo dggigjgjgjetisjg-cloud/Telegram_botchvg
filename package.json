@@ -1,0 +1,16 @@
+{
+  "name": "openvpn-panel",
+  "version": "1.0.0",
+  "description": "پنل مدیریت کاربران OpenVPN (ساخت خودکار گواهی/کانفیگ + ربات تلگرام) - قابل دیپلوی روی Railway",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "better-sqlite3": "^11.3.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "connect-sqlite3": "^0.9.15"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
